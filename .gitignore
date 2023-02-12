@@ -1,0 +1,32 @@
+#*********** NODE-SERVER ***********
+node-server/.env
+node-server/node_modules
+node-server/public/uploads
+
+#*********** VUE-CLIENT ***********
+
+# vue-client/.env
+vue-client/.DS_Store
+vue-client/node_modules
+vue-client//dist
+vue-client/public/uploads
+
+
+# local env files
+vue-client/.env.local
+vue-client/.env.*.local
+
+# Log files
+vue-client/npm-debug.log*
+vue-client/yarn-debug.log*
+vue-client/yarn-error.log*
+vue-client/pnpm-debug.log*
+
+# Editor directories and files
+vue-client/.idea
+vue-client/.vscode
+vue-client/*.suo
+vue-client/*.ntvs*
+vue-client/*.njsproj
+vue-client/*.sln
+vue-client/*.sw?
